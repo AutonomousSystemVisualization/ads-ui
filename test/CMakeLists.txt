@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_BUILD_TYPE Release)
+
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
@@ -27,4 +28,8 @@ target_link_libraries(hello_qt Qt5::Widgets)
 add_executable(hello_widget hello_widget.cc)
 # set_target_properties(hello_widget PROPERTIES AUTOMOC TRUE)
 target_link_libraries(hello_widget Qt5::Widgets)
+
+add_executable(hello_ui hello_ui/hello_ui.cc)
+# set_target_properties(hello_widget PROPERTIES AUTOMOC TRUE)
+target_link_libraries(hello_ui Qt5::Widgets)
 

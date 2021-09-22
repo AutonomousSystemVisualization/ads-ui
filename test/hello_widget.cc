@@ -2,11 +2,11 @@
 
 window_test::window_test(QWidget *parent = 0) : QWidget(parent)
 {
-    this->setMinimumSize(1000, 800);
+    this->setMinimumSize(1000, 800);      // 主窗口初始化
     label = std::make_shared<QLabel>();
     label->setText("<h1>hello widget</h1>!");
-    label->setParent(this);
-    label->setGeometry(10, 10, 200, 40);
+    label->setParent(this);                // 父窗口
+    label->setGeometry(100, 100, 200, 40); // 位置和大小
 }
 
 window_test::~window_test() {}
