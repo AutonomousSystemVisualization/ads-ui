@@ -24,6 +24,9 @@ find_package(Qt5Gui REQUIRED)
 add_executable(hello_qt hello_qt.cc)
 target_link_libraries(hello_qt Qt5::Widgets)
 
+add_executable(hello_string hello_string.cc)
+target_link_libraries(hello_string Qt5::Widgets)
+
 # qt5_wrap_cpp(moc_files hello_widget.cc)
 add_executable(hello_widget hello_widget.cc)
 # set_target_properties(hello_widget PROPERTIES AUTOMOC TRUE)

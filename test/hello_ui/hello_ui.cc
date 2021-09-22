@@ -7,7 +7,6 @@
 // model-view-control, design mode
 int main(int argc, char *argv[])
 {
-
     printf("hello qt \n");
     QApplication app(argc, argv);
 

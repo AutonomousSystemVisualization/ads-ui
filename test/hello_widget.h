@@ -11,7 +11,7 @@ class window_test : public QWidget
     Q_OBJECT  // window包含基本的api， moc工具会生成真正的实现代码
 private :
     /* data */
-public : 
+public :
     explicit window_test(QWidget *parent);  // 父窗口为空
     ~window_test();
 
