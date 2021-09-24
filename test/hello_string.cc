@@ -10,6 +10,6 @@ int main(int argc, char *argv[])
     tb.setText(strText);
     tb.setGeometry(40, 40, 400, 300);
     tb.show();
-    
+
     return a.exec();
 }

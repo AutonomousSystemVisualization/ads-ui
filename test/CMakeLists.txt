@@ -33,6 +33,5 @@ add_executable(hello_widget hello_widget.cc)
 target_link_libraries(hello_widget Qt5::Widgets)
 
 add_executable(hello_ui hello_ui/hello_ui.cc)
-# set_target_properties(hello_widget PROPERTIES AUTOMOC TRUE)
 target_link_libraries(hello_ui Qt5::Widgets)
 
