@@ -35,3 +35,7 @@ target_link_libraries(hello_widget Qt5::Widgets)
 add_executable(hello_ui hello_ui/hello_ui.cc)
 target_link_libraries(hello_ui Qt5::Widgets)
 
+add_executable(hello_signal hello_signal/hello_signal.cc
+                            hello_signal/main.cc)
+target_link_libraries(hello_signal Qt5::Widgets)
+
