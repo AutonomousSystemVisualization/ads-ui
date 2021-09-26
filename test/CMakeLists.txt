@@ -39,3 +39,7 @@ add_executable(hello_signal hello_signal/hello_signal.cc
                             hello_signal/main.cc)
 target_link_libraries(hello_signal Qt5::Widgets)
 
+add_executable(hello_button 
+                            hello_button/radio_button.cc)
+target_link_libraries(hello_button Qt5::Widgets)
+
