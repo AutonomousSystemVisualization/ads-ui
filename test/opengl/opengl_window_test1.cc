@@ -23,6 +23,7 @@ void Window::initializeGL()
 
     // Set global information
     glClearColor(0.0f, 0.0f, 0.0, 1.0f);
+    glPointSize(1.0f);
 }
 
 void Window::resizeGL(int width, int height)
