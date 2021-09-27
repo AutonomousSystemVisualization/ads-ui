@@ -43,3 +43,11 @@ add_executable(hello_button
                             hello_button/radio_button.cc)
 target_link_libraries(hello_button Qt5::Widgets)
 
+add_executable(hello_layout hello_layout.cc)
+target_link_libraries(hello_layout Qt5::Widgets)
+
+add_executable(hello_opengl opengl/opengl_window_test1.cc)
+target_link_libraries(hello_opengl Qt5::Widgets Qt5::Gui Qt5::Core)
+
+add_subdirectory(opengl)
+
